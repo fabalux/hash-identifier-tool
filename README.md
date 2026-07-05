@@ -37,6 +37,12 @@ This project deepened my understanding of one-way hash functions, a core concept
 - File integrity checks: comparing hashes before/after transfer detects tampering
 - Malware analysis: security analysts match file hashes against known malware databases
 - Duplicate detection: comparing hashes is faster than comparing full file contents
+## Tech Stack
+- Python 3 (standard library only — hashlib)
 
+## Limitations
+- Hash identification is based on length and format only, not cryptographic verification
+- Different algorithms can produce hashes of the same length (uncommon but possible)
+- Does not support salted or keyed hashes
 ## License
 MIT
